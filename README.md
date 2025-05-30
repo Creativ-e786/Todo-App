@@ -1,60 +1,12 @@
-# 📝 To-Do App (React + Vite)
+# React + Vite
 
-A minimal and functional **To-Do App** built using **React** with **Vite** for fast development. Users can add, view, and delete their tasks with a clean and simple UI.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ⚙️ Tech Stack
+Currently, two official plugins are available:
 
-- ⚛️ React.js
-- ⚡ Vite
-- 🧠 JSX Components
-- 🎨 CSS
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## Expanding the ESLint configuration
 
-## 🚀 Features
-
-- ➕ Add a new task
-- 🗑️ Delete a task
-- ✅ Mark tasks as completed (if implemented)
-- ✏️ Modular and reusable component structure
-- 🔄 Superfast Vite dev server
-
----
-
-## 📁 Folder Structure
-
-To-do-app/
-├── public/
-├── src/
-│ ├── assets/
-│ ├── components/
-│ │ ├── AddTodo.jsx
-│ │ ├── AppName.jsx
-│ │ ├── TodoItem1.jsx
-│ │ └── TodoItem2.jsx
-│ ├── App.css
-│ ├── App.jsx
-│ └── main.jsx
-├── .gitignore
-├── index.html
-├── package.json
-├── package-lock.json
-├── vite.config.js
-├── eslint.config.js
-└── README.md
-
-📌 Components Breakdown
-- AppName.jsx – Displays the app's title/header.
-
-- AddTodo.jsx – Form to add a new task.
-
-- TodoItem1.jsx – Displays individual task (version 1).
-
-- TodoItem2.jsx – Displays individual task (version 2 or variation).
-
-- App.jsx – Main component that brings everything together.
-
-- main.jsx – Entry point of the React app.
-
-🙌 Acknowledgements
-Thanks to React and Vite communities for their excellent tools and documentation.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
